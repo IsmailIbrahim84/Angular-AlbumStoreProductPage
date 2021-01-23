@@ -6,6 +6,8 @@ import {ProductService} from '../product.service';
   templateUrl: './product-description.component.html',
   styleUrls: ['./product-description.component.css']
 })
+
+
 export class ProductDescriptionComponent implements OnInit {
   private albumInfo: any;
 
