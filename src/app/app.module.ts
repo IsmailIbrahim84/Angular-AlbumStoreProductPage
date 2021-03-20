@@ -11,10 +11,10 @@ import { ProductListComponent } from './product-list/product-list.component';
 import {RouterModule, Routes} from '@angular/router';
 
 const appRoutes: Routes = [
-  { path: 'products' , component: ProductListComponent },
-  { path: 'product/:id' , component: ProductPageComponent },
-  { path: '' , redirectTo: 'products', pathMatch: 'full' },
-  { path: '**' , redirectTo: 'products', pathMatch: 'full' }
+  { path: 'products', component: ProductListComponent },
+  { path: 'product/:id', component: ProductPageComponent },
+  { path: '', redirectTo: 'products', pathMatch: 'full' },
+  { path: '**', redirectTo: 'products', pathMatch: 'full' }
 ];
 
 @NgModule({
